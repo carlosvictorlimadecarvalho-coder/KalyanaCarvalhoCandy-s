@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolo Cocada</title>
+    <link rel="stylesheet" href="style info/stylecarro.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    
+    <div class="container" data-aos="flip-up">
+        <div class="card1">
+    <div class="carousel">
+        <div class="carousel-track">
+          <img src="./imagens/cocada1.png" alt="Imagem 1">
+         <img src="./imagens/cocada enformado.jpeg" alt="Imagem 2">
+        </div>
+    </div>
+    <h1 id="tags">Bolo Cocada</h1>
+   <h4>Denformado: R$ 100 <br>(1,8 Kg; Serve 21 pessoas)</h4>
+   <h4>Enformado: R$ 90 <br>(1,8 Kg; Serve 21 pessoas)</h4>
+   <br>
+   <button id="botao" onmouseup="principalPage()">Voltar</a></button>
+</div>
+    </div>
+
+
+
+
+
+
+    <!--Scripts AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
+<script>
+  const track = document.querySelector('.carousel-track');
+  const images = document.querySelectorAll('.carousel img');
+
+  let index = 0;
+
+  setInterval(() => {
+    index++;
+
+    if (index >= images.length) {
+      index = 0;
+    }
+
+    track.style.transform = `translateX(-${index * 100}%)`;
+  }, 3000); // troca a cada 3 segundos
+</script>
+<script>
+  function principalPage(){
+    window.location.replace("indexcard.html");
+  }
+</script>
+</body>
+</html>

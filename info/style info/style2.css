@@ -1,0 +1,100 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(../imagens/fundo.jpg);
+}
+.container{
+  display: flex;
+  gap: 20px;                 /* espaço entre as imagens */
+  justify-content: center; 
+  align-items: center;
+  align-content: center;
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 40px;
+}
+.container img{
+  width: 400px;
+  max-height: 800px;
+  display: block;
+  border-radius: 12px;
+}
+.card1{
+  font-size: 13px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding-bottom: 5px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.2);
+}
+#description{
+  text-align: center;
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+#list{
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+#tags{
+  font-size: 30px;
+  font-weight: 400;
+}
+#botao{
+  background-color: #7c7267; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 12px;
+}
+#botao a{
+  color: white;
+  text-decoration: none;
+}
+h3{
+  font-family: "Playwrite NZ Basic", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 25px;
+}
+h4{
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .container img{
+    width: 350px;
+    max-height: 400px;
+  }
+  .container{
+    margin-top: 30px;
+  }
+  #description{
+  text-align: center;
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+#list{
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+}

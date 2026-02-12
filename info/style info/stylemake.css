@@ -1,0 +1,105 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(../imagens/fundo.jpg);
+}
+.container{
+  display: flex;
+  gap: 20px;
+  justify-content: center; 
+  align-items: center;
+  align-content: center;
+}
+.container2{
+  display: flex;
+  gap: 20px;
+  justify-content: center; 
+  align-items: center;
+  align-content: center;
+  margin-top: 30px;
+}
+.card1{
+  font-size: 13px;
+  text-align: center;
+  border: 3px solid rgb(62, 82, 23);
+  border-radius: 30px;
+  padding-bottom: 5px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.2);
+  width: 500px;
+  background-image: url(../imagens/fundomarmore.jpg);
+}
+.card2{
+  text-align: center;
+  border: 3px solid rgb(62, 82, 23);
+  border-radius: 30px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.2);
+  width: 500px;
+  background-image: url(../imagens/fundomarmore.jpg);
+}
+.opcoes{
+  display: flex;
+  gap: 70px;
+  justify-content: center; 
+  align-items: center;
+  align-content: center;
+  margin-top: 10px;
+}
+.opcoes img{
+  width: 150px;
+  height: 180px;
+  border-radius: 30px;
+}
+.tamanhos{
+  font-family: "Playwrite NZ Basic", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+#tags{
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 10px ;
+  font-style: normal;
+  font-size: 40px;
+}
+#infos{
+  font-family: "Playwrite NZ Basic", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+#botao{
+  background-color: #7c7267; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 12px;
+}
+#botao a{
+  color: white;
+  text-decoration: none;
+}
+.botaoSair{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 1000px) {
+  .container{
+    margin-top: 30px;
+  }
+  .card1{
+    width: 370px;
+    height: auto;
+  }
+  .card2{
+    width: 370px;
+    height: auto;
+  }
+}
