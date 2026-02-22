@@ -2,7 +2,7 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: url(../imagens/fundo.jpg);
+  background-image: url(../imagens/transferir.jpg);
 }
 .container{
   display: flex;
@@ -61,6 +61,9 @@ body{
 #botao a{
   color: white;
   text-decoration: none;
+}
+h2{
+  font-size: 20px;
 }
 h3{
   font-family: "Playwrite NZ Basic", cursive;

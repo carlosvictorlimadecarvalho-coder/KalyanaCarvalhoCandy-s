@@ -54,7 +54,9 @@ function irParaCardapio(){
   window.location.replace("index/indexcard.html");
 }
 
-
+function personalizado(){
+  window.location.replace("index8.html");
+}
 
 function moreOption1(){
   const moreOptions = document.querySelector('.botaoMais');
@@ -69,8 +71,4 @@ function animacaoCard(){
   setTimeout(() => {
     animationCard.classList.remove("animate__headShake");
   }, 1000);
-}
-
-function personalizado(){
-  window.location.replace("index8.html");
 }
