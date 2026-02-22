@@ -20,17 +20,24 @@ html {
   width: 100%;
   z-index: 1000;
 }
-.topo{
+.containerinicio{
   display: flex;
-  justify-content: center;;
+  justify-content: center;
   align-items: center;
+  align-content: center;
+  margin-top: 80px;
 }
-.topo img{
-  width: 300px;
-  position: relative;
-  top: 40px;
-  left: 10px;
-  
+.containerinicio img{
+  width: 200px;
+  max-height: 300px;
+  border-radius: 20px;
+  border: 2px solid white;
+}
+.coracao{
+  width: 200px;
+  height: 200px;
+  display: block;
+  border-radius: 50%;
 }
 .navbar ul {
   justify-content: center;
