@@ -4,7 +4,7 @@
 }
 body{
     margin: 0%;
-    background-image: url(../imagens/transferir.jpg);
+    background-image: url(imagens/transferir.jpg);
 }
 html {
   scroll-behavior: smooth;
@@ -153,7 +153,6 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(imagens/papeldeembrulho.jpg);
   border-radius: 40px;
   overflow: hidden;
 }

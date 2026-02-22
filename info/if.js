@@ -51,7 +51,7 @@ function clickBolo15(){
 }
 
 function irParaCardapio(){
-  window.location.replace("indexcard.html");
+  window.location.replace("index/indexcard.html");
 }
 
 
