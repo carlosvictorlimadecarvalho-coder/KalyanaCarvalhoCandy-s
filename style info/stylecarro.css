@@ -20,11 +20,11 @@ body{
   transition: transform 0.5s ease-in-out;
 }
 h3{
-  font-family: "Playwrite NZ Basic", cursive;
+  font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 200;
+  font-weight: 400;
   font-style: normal;
-  font-size: 25px;
+  font-size: 20px;
 }
 h4{
   font-family: "Play", sans-serif;
