@@ -49,6 +49,9 @@ function clickBolo14(){
 function clickBolo15(){
   window.location.replace("index17.html");
 }
+function clickBolo16(){
+  window.location.replace("index18.html");
+}
 
 function irParaCardapio(){
   window.location.replace("index/indexcard.html");
