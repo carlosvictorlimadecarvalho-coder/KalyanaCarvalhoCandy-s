@@ -13,11 +13,11 @@ html {
   display: flex;
   position: fixed;
   z-index: 100;
-  top: 10px;
+  top: 30px;
   left: 10px;
 }
 .navbar{
-   background: rgb(107,142,35);
+   background: rgb(228, 154, 101);
    padding: 14px 20px;
    border: 2px solid black;
    border-radius: 20px;

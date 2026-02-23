@@ -1,9 +1,18 @@
-const hamburger = document.getElementById('hamburger');
-const menu = document.getElementById('menu');
+const menuToggle = document.querySelector('.hamburger');
+const navbar = document.querySelector('.menu');
 
-hamburger.addEventListener('click', () => {
-  menu.classList.toggle('ativo');
+menuToggle.addEventListener('click', () => {
+  navbar.classList.toggle('active');
 });
+
+document.addEventListener('click', (event) => {
+  const isClickInside = navbar.contains(event.target) || menuToggle.contains(event.target);
+
+  if (!isClickInside) {
+    navbar.classList.remove('active');
+  }
+});
+
 function clickBolo1(){
   window.location.replace("index2.html");
 }
@@ -51,6 +60,42 @@ function clickBolo15(){
 }
 function clickBolo16(){
   window.location.replace("index18.html");
+}
+function clickBolo17(){
+  window.location.replace("index/index9.html");
+}
+function clickBolo18(){
+  window.location.replace("index/index3.html");
+}
+function clickBolo19(){
+  window.location.replace("index/index2.html");
+}
+function clickBolo20(){
+  window.location.replace("index/index5.html");
+}
+function clickBolo21(){
+  window.location.replace("index/index10.html");
+}
+function clickBolo22(){
+  window.location.replace("index/index7.html");
+}
+function clickBolo23(){
+  window.location.replace("index/index16.html");
+}
+function clickBolo24(){
+  window.location.replace("index/index17.html");
+}
+function clickBolo25(){
+  window.location.replace("index/index14.html");
+}
+function clickBolo26(){
+  window.location.replace("index/index18.html");
+}
+function clickBolo27(){
+  window.location.replace("index/index4.html");
+}
+function clickBolo28(){
+  window.location.replace("index/index7.html");
 }
 
 function irParaCardapio(){

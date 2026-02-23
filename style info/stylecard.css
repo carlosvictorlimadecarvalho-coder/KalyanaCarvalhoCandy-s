@@ -62,7 +62,7 @@ html {
     padding: 10px;
   }
 .navbar a:hover{
-  background: red;
+  background: rgb(255, 255, 255);
 }
 #title{
   font-family: "Dancing Script", cursive;
@@ -421,9 +421,12 @@ html {
   margin-right: 320px;
   padding: 5px 10px;
 }
-.menu {
+.menu{
   display: flex;
   gap: 20px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 .containerredes{
     display: flex;
@@ -453,7 +456,7 @@ html {
 .redeflutuante{
   position: fixed;
   bottom: 50px;
-  right: 20px;
+  right: 25px;
 }
 .redeflutuante a{
   font-size: 50px;
@@ -473,6 +476,13 @@ html {
   .container3{
     flex-direction: column;
   }
+  .menu {
+  display: none;
+}
+.menu.active {
+  display: flex;
+  
+}
   #bolos{
     flex-direction: column;
     justify-content: center;
