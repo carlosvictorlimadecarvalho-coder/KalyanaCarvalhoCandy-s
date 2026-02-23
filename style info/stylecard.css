@@ -67,7 +67,7 @@ html {
 .backToHome{
   display: block;
   position: fixed;
-  bottom: 85%;
+  bottom: 83%;
 }
 .backToHome button{
   background: rgb(62, 82, 23);
