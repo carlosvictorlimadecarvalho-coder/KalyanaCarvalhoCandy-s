@@ -95,7 +95,13 @@ function clickBolo27(){
   window.location.replace("index/index4.html");
 }
 function clickBolo28(){
-  window.location.replace("index/index7.html");
+  window.location.replace("index/index11.html");
+}
+function clickBolo29(){
+  window.location.replace("index/index15.html");
+}
+function clickBolo30(){
+  window.location.replace("index/index13.html");
 }
 
 function irParaCardapio(){

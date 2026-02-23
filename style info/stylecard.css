@@ -64,6 +64,25 @@ html {
 .navbar a:hover{
   background: rgb(255, 255, 255);
 }
+.backToHome{
+  display: block;
+  position: fixed;
+  bottom: 87%;
+}
+.backToHome button{
+  background: rgb(62, 82, 23);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  font-size: 20px;
+  z-index: 2000;
+}
 #title{
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
@@ -72,6 +91,14 @@ html {
   text-align: center;
   font-size: 50px;
   color: black;
+}
+.subtitulo{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  text-align: center;
+  font-size: 30px;
 }
 #divisoes{
   font-family: "Dancing Script", cursive;
