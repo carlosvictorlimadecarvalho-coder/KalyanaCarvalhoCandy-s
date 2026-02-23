@@ -104,8 +104,37 @@ function clickBolo30(){
   window.location.replace("index/index13.html");
 }
 
+
+
+
+function irParaInfantil(){
+  window.location.replace("index19.html");
+}
+
+function irParaReligiosos(){
+  window.location.replace("index20.html");
+}
+function irParaFlores(){
+  window.location.replace("index21.html");
+}
+function irParaVintage(){
+  window.location.replace("index22.html");
+}
+function irParaGanacheLeite(){
+  window.location.replace("index23.html");
+}
+function irParaGanacheLivre(){
+  window.location.replace("index24.html");
+}
+function irParaChantininho(){
+  window.location.replace("index25.html");
+}
+
 function irParaCardapio(){
   window.location.replace("index/indexcard.html");
+}
+function irPresentear(){
+  window.location.replace("index/indexcard.html#kits");
 }
 
 function personalizado(){

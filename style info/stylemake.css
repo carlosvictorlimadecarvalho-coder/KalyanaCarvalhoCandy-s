@@ -151,6 +151,20 @@ h3{
   color: white;
   text-decoration: none;
 }
+.pedidoPersonalizado{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.pedidoPersonalizado a{
+  text-align: center;
+  text-decoration: none;
+  color: rgb(62, 82, 23);
+  background: #7c7267;
+  border-radius: 50px;
+  padding: 14px 30px;
+}
 .botaoSair{
   display: flex;
   justify-content: center;
