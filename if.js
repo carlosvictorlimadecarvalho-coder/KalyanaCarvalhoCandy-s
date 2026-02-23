@@ -103,6 +103,12 @@ function clickBolo29(){
 function clickBolo30(){
   window.location.replace("index/index13.html");
 }
+function clickBolo31(){
+  window.location.replace("index26.html");
+}
+function clickBolo32(){
+  window.location.replace("index/index26.html");
+}
 
 
 
@@ -132,9 +138,6 @@ function irParaChantininho(){
 
 function irParaCardapio(){
   window.location.replace("index/indexcard.html");
-}
-function irPresentear(){
-  window.location.replace("index/indexcard.html#kits");
 }
 
 function personalizado(){

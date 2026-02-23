@@ -63,6 +63,7 @@ html {
   }
 .navbar a:hover{
   background: rgb(255, 255, 255);
+  color: black
 }
 .backToHome{
   display: block;
