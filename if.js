@@ -62,52 +62,52 @@ function clickBolo16(){
   window.location.replace("index18.html");
 }
 function clickBolo17(){
-  window.location.replace("index/index9.html");
+  window.location.replace("folders/index9.html");
 }
 function clickBolo18(){
-  window.location.replace("index/index3.html");
+  window.location.replace("folders/index3.html");
 }
 function clickBolo19(){
-  window.location.replace("index/index2.html");
+  window.location.replace("folders/index2.html");
 }
 function clickBolo20(){
-  window.location.replace("index/index5.html");
+  window.location.replace("folders/index5.html");
 }
 function clickBolo21(){
-  window.location.replace("index/index10.html");
+  window.location.replace("folders/index10.html");
 }
 function clickBolo22(){
-  window.location.replace("index/index7.html");
+  window.location.replace("folders/index7.html");
 }
 function clickBolo23(){
-  window.location.replace("index/index16.html");
+  window.location.replace("folders/index16.html");
 }
 function clickBolo24(){
-  window.location.replace("index/index17.html");
+  window.location.replace("folders/index17.html");
 }
 function clickBolo25(){
-  window.location.replace("index/index14.html");
+  window.location.replace("folders/index14.html");
 }
 function clickBolo26(){
-  window.location.replace("index/index18.html");
+  window.location.replace("folders/index18.html");
 }
 function clickBolo27(){
-  window.location.replace("index/index4.html");
+  window.location.replace("folders/index4.html");
 }
 function clickBolo28(){
-  window.location.replace("index/index11.html");
+  window.location.replace("folders/index11.html");
 }
 function clickBolo29(){
-  window.location.replace("index/index15.html");
+  window.location.replace("folders/index15.html");
 }
 function clickBolo30(){
-  window.location.replace("index/index13.html");
+  window.location.replace("folders/index13.html");
 }
 function clickBolo31(){
-  window.location.replace("index26.html");
+  window.location.replace("folders/index26.html");
 }
 function clickBolo32(){
-  window.location.replace("index/index26.html");
+  window.location.replace("folders/index26.html");
 }
 
 
@@ -137,11 +137,11 @@ function irParaChantininho(){
 }
 
 function irParaCardapio(){
-  window.location.replace("index/indexcard.html");
+  window.location.replace("folders/indexcard.html");
 }
 
 function personalizado(){
-  window.location.replace("index8.html");
+  window.location.replace("folders/index8.html");
 }
 
 function moreOption1(){
