@@ -266,6 +266,11 @@ html {
   flex-direction: row;
   gap: 10px;
 }
+.bolomasc{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
 .container4{
   display: flex;
   gap: 20px;                 /* espaço entre as imagens */

@@ -135,6 +135,9 @@ function irParaGanacheLivre(){
 function irParaChantininho(){
   window.location.replace("index25.html");
 }
+function irParaBolosMasc(){
+  window.location.replace("index27.html");
+}
 
 function irParaCardapio(){
   window.location.replace("folders/indexcard.html");
