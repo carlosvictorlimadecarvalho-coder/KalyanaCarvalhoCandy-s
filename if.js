@@ -141,7 +141,7 @@ function irParaCardapio(){
 }
 
 function personalizado(){
-  window.location.replace("folders/personali.html");
+  window.location.replace("personali.html");
 }
 
 function moreOption1(){
